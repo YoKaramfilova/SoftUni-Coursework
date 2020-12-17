@@ -1,0 +1,22 @@
+/* CSS Document */
+body {
+   width:800px;
+   height: 800px;
+    
+    background: -webkit-radial-gradient(20% 20%, closest-side, white, skyblue,blue); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(20% 20%, closest-side, white, skyblue,blue); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(20% 20%, closest-side, white, skyblue,blue); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(closest-side at 20% 20%, white, skyblue,blue)); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-image: url(TediHula.png), url(PetiaHula.png), url(VladoGHula.png), url(VladoKHula.png), url(AlexHula.png), url(NakovHula.png), url(HawaiiBackground.png);
+    
+}
+@font-face {
+  font-family: animated;
+  src: url(Animated.tff);
+}
+h1 {
+  text-align: right;
+  color: #EAB300;
+  font-family: animated;
+}

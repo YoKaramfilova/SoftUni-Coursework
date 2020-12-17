@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head lang="en">
+    <meta charset="UTF-8">
+    <title>Problem_3</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+ </head>
+ <body>
+  <div id="wrapper">
+    <header>
+      <h1>EDIT USER</h1>
+    </header>
+    <form method="get" action="#">
+     <div id="right">
+      <input type="checkbox" name="deactivate" value="deactivate">Deactivate
+     </div>
+     <div id="left">
+      <label for="Username">Username</label>
+      <input type="text" name="Username" id="Username" required>
+      <label for="Email">Email</label>
+      <input type="mail" name="Email" id="Email" required>
+      <label for="Phone number">Phone number</label>
+      <input type="tel" name="Phone number" id="Phone number" >
+      <label for="user-type">User type</label><br>
+      <input type="radio" name="user-type" id="user-type" value="Broadband" checked> Broadband
+      <input type="radio" name="user-type1" id="user-type" value="radio"> Radio<br>
+      <label for="change-password">Change Password</label>
+      <input type="password" name="change-password" id="change-password" required>
+      <label for="Groups">Groups</label>
+      <input type="text" name="Groups" id="Groups" >
+       <input type="checkbox" name="group" value="all">All groups<br>
+       <input type="checkbox" name="group" value="1">Group 1<br>
+       <input type="checkbox" name="group" value="2">Group 2<br>
+       <input type="checkbox" name="group" value="3">Group 3<br>
+       <input type="checkbox" name="group" value="4">Group 4<br>
+      <p>Contacts <br><br> <a href="#">See Contacts list</a></p>
+      <input type="reset" value="Cancel">
+      <input type="submit" value="Save">
+     </div>
+    </form>
+  </div>
+ </body>
+</html>

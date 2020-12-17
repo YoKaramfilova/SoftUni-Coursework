@@ -1,0 +1,151 @@
+/* CSS Document */
+body {
+    background-image: url("colorful_dots_on_black.jpg");
+    background-repeat: repeat;
+    font-family: verdana;
+}
+body>header {
+  text-align: center;
+  font-size:-webkit-xxx-large;
+  color: yellow;
+  font-weight: bolder;
+  background: linear-gradient(to right, #ff0000 34%,#ff0000 34%,#19a019 34%,#19a019 34%,#19a019 66%,#19a019 66%,#071aea 66%);
+  
+}
+nav {
+    border:none;
+    border-radius: 15px;
+    background-color:rgba(255,255,255,0.9);
+    padding: 15px;
+    width: 15%;
+    line-height: 200%;
+    margin: 5px;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+li a {
+    display: block;
+    text-decoration:none;
+    color: black;
+}
+li a:visited {
+  color: rgb(128,128,128);
+}
+li a:before {
+    content: url("Accept-icon.png") ;
+}
+nav header {
+    text-decoration: underline;
+    font-weight: semi-bold;
+    font-size: larger;
+}
+    
+a:visited {
+    color: rgb(128,128,128);
+}
+li:nth-child(1) a:hover{
+  color:red;
+}
+li:nth-child(2) a:hover{
+  color:orange;
+}
+li:nth-child(3) a:hover{
+  color:yellow;
+}
+li:nth-child(4) a:hover{
+  color:blue;
+}
+li:nth-child(5) a:hover{
+  color:green;
+}
+li:nth-child(6) a:hover{
+  color:purple;
+}
+
+section {
+  float:right;
+  width: 80%;
+}
+article {
+    border:none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 15px;
+    margin: 10px;
+    font-size: small;
+}
+article div:first-line{
+    font-style: italic;
+}
+article div:first-letter {
+    font-size: xx-large;
+  
+}
+article footer a {
+    color: rgb(128,128,128);
+    font-style: italic;
+  
+}
+span[lang=la] {
+    font-style: italic;
+    color:  darkblue;
+}
+#webColors {
+  background-color: red;
+  color: white;
+  border:none;
+  border-radius:5px;
+  font-size:xx-large;
+  font-weight:semi-bold;
+}
+#webSafeColors {
+  background-color: orange;
+  color: black;
+  border:none;
+  border-radius:5px;
+  font-size:xx-large;
+  font-weight:semi-bold;
+}
+#RGB {
+  background-color: yellow;
+  color: black;
+  border:none;
+  border-radius:5px;
+  font-size:xx-large;
+  font-weight:semi-bold;
+}
+#RGBA {
+  background-color: green;
+  color: white;
+  border:none;
+  border-radius:5px;
+  font-size:xx-large;
+  font-weight:semi-bold;
+}
+[id="#HSLHSV"] {
+  background-color: blue;
+  color: white;
+  border:none;
+  border-radius:5px;
+  font-size:xx-large;
+  font-weight:semi-bold;
+}
+[id="#lorem"] {
+  background-color: purple;
+  color: white;
+  border:none;
+  border-radius:5px;
+  font-size:xx-large;
+  font-weight:semi-bold;
+}
+
+
+
+
+

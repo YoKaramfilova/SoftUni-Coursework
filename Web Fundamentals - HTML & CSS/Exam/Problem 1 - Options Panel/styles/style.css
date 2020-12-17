@@ -1,0 +1,70 @@
+/* CSS Document */
+body{
+  font:15px Tahoma, Arial, sans-serif;
+  color:#191923;
+  background:#CACAC9;
+}
+header{
+  box-sizing: border-box;
+  margin-top: 50px;
+  height:97px;
+  padding: 40px;
+  background:white;
+  width:1000px;
+  margin-left: auto;
+  margin-right:auto;
+}
+li{
+  padding-left:12px;
+}
+
+ul > li {
+  display: inline-block;
+  
+}
+ul > li> a:hover {
+  color:#BF1363;
+  cursor:pointer;
+}
+
+main{
+  margin: 31px;
+  width:1000px;
+  margin-left: auto;
+  margin-right:auto;
+  display: flex;
+  justify-content:space-between;
+}
+
+section{
+  height: 321px;
+  width:24.5%;
+  box-sizing:border-box;
+  background: white;
+  vertical-align: top;
+  
+}
+section:hover {
+  opacity: 0.8;
+  cursor:pointer;
+}
+section > a > div {
+  padding: 20px 12px;
+}
+p{
+  padding-top: 10px;
+  font-size: 13px;
+}
+section > a> div > h3{
+  color:#BBB;
+  letter-spacing: 2px;
+}
+img{
+  height: 202px;
+  width:246px;
+}
+a{
+  text-decoration:none;
+  color:#191923;
+  
+}

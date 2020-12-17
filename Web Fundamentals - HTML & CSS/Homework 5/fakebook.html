@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Fakebook Register Form</title>
+   <link rel="stylesheet" type="text/css" href="fakebook.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+            <h1>fakebook<span>&reg;</span></h1>
+            <h3>Registration</h3>
+            <h5>It is safe and it will always be!</h5>
+        </header>
+        <form method="post" action="#">
+          <div id="nonimportant">
+            <fieldset>
+              <legend>None-Important Information</legend>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" class="non-important" tabindex="1">
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" class="non-important" tabindex="2">
+                <input type="email" name="email" id="email" placeholder="Your Email" class="non-important" tabindex="3">
+                <input type="tel" name="tel" id="tel" placeholder="Phone Number" class="non-important" tabindex="4">
+                <input type="password" name="password" id="password" placeholder="Your Password" class="non-important" tabindex="5">
+                <input type="url" name="url" id="url" placeholder="Website" class="non-important" tabindex="6">
+                <label for="birthday">Birthday</label><br>
+                <input type="datetime-local" name="birthday" id="birthday" value="2014-05-09T13:58:00.00"><br>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </fieldset>
+            <input type="reset" value="Clear Form">
+          </div>
+          <div id="important">
+            <fieldset>
+              <legend>Important Information *required</legend>
+                <select name="country" required="required">
+                  <option disabled="disabled" value="country" selected="selected">Country</option>
+                  <option value="bulgaria">Bulgaria</option>
+                  <option value="great britain">Great Britain</option>
+                  <option value="germany">Germany</option>
+                </select>
+                <input type="text" name="village" id="village" class="important" placeholder="Village" required="required">
+                <input type="text" name="district" id="district" class="important" placeholder="District" required="required"><br>
+                <input type="text" name="street" id="street" class="important" placeholder="Street" required="required">
+                <input type="number" name="number" id="number" min="0" class="number" placeholder="Nr" required="required">
+                <input type="number" name="floor" id="floor" min="0" class="number" placeholder="Floor" required="required">
+                <input type="number" name="ap-number" min="0" id="ap-number" class="number" placeholder="Ap Nr" required="required"><br>
+                <label for="door-color">Door color</label><br>
+                <input type="color" name="doorcolor" id="doorcolor" class="important" value="#ffa3bb">
+                <input type="text" name="water" id="water" placeholder="Water meter Nr" class="important" required="required">
+                <select name="size" required="required">
+                  <option disabled="disabled" selected="selected">Aunt Panties`Size</option>
+                  <option value="xl">XL</option>
+                  <option value="xxl">XXL</option>
+                  <option value="xxxl">XXXL</option>
+                </select><br>
+                <label for="info">More Personal Information</label><br>
+                <textarea id="info" name="info" placeholder="Give Us More Information!!!" required="required"></textarea>
+              </fieldset>
+            <input type="submit" value="Register">
+          </div>
+      </form>
+    </div>
+  </body>
+ </html>
